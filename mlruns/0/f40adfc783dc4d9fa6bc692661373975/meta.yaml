@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/srinidhikankanala/Desktop/MLOPS-Udemy/NetworkSecurityProject/mlruns/0/f40adfc783dc4d9fa6bc692661373975/artifacts
+end_time: 1742575006474
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f40adfc783dc4d9fa6bc692661373975
+run_name: inquisitive-doe-372
+run_uuid: f40adfc783dc4d9fa6bc692661373975
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742575005040
+status: 3
+tags: []
+user_id: srinidhikankanala
