@@ -24,8 +24,9 @@ from sklearn.ensemble import (
 import mlflow
 from urllib.parse import urlparse
 
-#import dagshub
-#dagshub.init(repo_owner='krishnaik06', repo_name='networksecurity', mlflow=True)
+# when we give this the mlruns folder will be created in dagshub
+import dagshub
+dagshub.init(repo_owner='Srinidhik15', repo_name='Networksecurity-Project', mlflow=True)
 
 #os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/krishnaik06/networksecurity.mlflow"
 #os.environ["MLFLOW_TRACKING_USERNAME"]="krishnaik06"
@@ -58,7 +59,6 @@ class ModelTrainer:
 
             
         
-
     
     def train_model(self,X_train,y_train,x_test,y_test):
         models = {

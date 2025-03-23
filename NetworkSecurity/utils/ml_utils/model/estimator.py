@@ -8,6 +8,7 @@ import sys
 from NetworkSecurity.exception.exception import NetworkSecurityException
 from NetworkSecurity.logging.logger import logging
 
+
 class NetworkModel:
     def __init__(self,preprocessor,model):
         try:
@@ -16,6 +17,9 @@ class NetworkModel:
         except Exception as e:
             raise NetworkSecurityException(e,sys)
     
+    # we created predic t func where we give our input data it will do preprocesser.transform ie it will transform the new data 
+    # and them we use the model and do prediction
+    # we get th eoutput as y_hat which is the predicted output
     def predict(self,x):
         try:
             x_transform = self.preprocessor.transform(x)
