@@ -11,7 +11,8 @@ AWS_ECR_LOGIN_URI = 788614365622.dkr.ecr.us-east-1.amazonaws.com/networkssecurit
 ECR_REPOSITORY_NAME = networkssecurity
 
 
-Docker Setup In EC2 commands to be Executed
+
+#### Docker Setup In EC2 commands to be Executed
 #optinal
 
 sudo apt-get update -y
